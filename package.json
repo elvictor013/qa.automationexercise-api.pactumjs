@@ -1,0 +1,15 @@
+{
+  "name": "qa.automationexercise-api.pactumjs",
+  "version": "1.0.0",
+  "description": "Testes de API automatizados com PactumJS e Mocha",
+  "scripts": {
+    "test": "mocha",
+    "test:report": "mocha --reporter mochawesome"
+  },
+  "devDependencies": {
+    "joi": "^17.13.3",
+    "mocha": "^11.1.0",
+    "mochawesome": "^7.1.4",
+    "pactum": "^3.7.4"
+  }
+}
