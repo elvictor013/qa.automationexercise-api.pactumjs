@@ -24,5 +24,11 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
+      - name: Instalar PactumJS
+        run: npm install -D pactum
+
+      - name: Instalar Joi
+        run: npm install -D joi
+
       - name: Executar testes
         run: npm test

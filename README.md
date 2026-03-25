@@ -1,7 +1,5 @@
 # qa.automationexercise-api.pactumjs
 
-# qa.automationexercise-api.pactumjs
-
 Projeto de testes automatizados de API REST utilizando PactumJS e Mocha,
 com validação de contrato via Joi e geração de relatório com Mochawesome.
 
